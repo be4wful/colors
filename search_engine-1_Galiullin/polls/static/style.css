@@ -1,0 +1,122 @@
+* {
+	font-size: 100%;
+	outline: 0;
+	padding: 0;
+	margin: 0;
+	border: 0;
+	}
+.container{
+	display: flex;
+	width: 100%;
+	height: 100%;
+	background-color: #2e2d2d;
+	justify-content: space-between;
+}
+.left {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	border: 1px solid black;
+	display: flex;
+	height: 967px;
+	background-color: #2e2d2d;
+	width: 110px;
+	font-family: 'Sono', sans-serif;
+	color: white;
+	font-weight: 500;
+}
+.left__home{
+	margin-top: 40px;
+}
+.left__about {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: space-between;
+	height: 800px;
+	margin-top: 500px;
+}
+.left__about-git {
+	font-family: 'Sono', sans-serif;
+	color: white;
+	font-weight: 500;
+transform: rotate(90deg);
+margin-top: 94px;}
+.left__about-tg{
+	font-family: 'Sono', sans-serif;
+	color: white;
+	font-weight: 500;
+	transform: rotate(90deg);
+}
+.left__currency{
+	font-family: 'Sono', sans-serif;
+	color: white;
+	transform: rotate(90deg);
+margin-top: 80px;}
+.center {
+	height: 1080px;
+
+}
+.center__logo {
+	font-family: 'Sono', sans-serif;
+	color: white;
+	font-weight: 500;
+	font-size: 57px;
+}
+.center__text {
+	font-family: 'Sono', sans-serif;
+	color: white;
+	font-weight: 500;
+}
+.right{
+	display: flex;
+	height: 967px;
+}	
+.right__color-red{
+	height: 967px;
+	width: 75px;
+	background-color: #68230D;
+	text-decoration: none;
+	list-style: none;
+}
+.right__color-zeus{
+	background-color: #1D1814;
+	height: 967px;
+	width: 75px;
+	text-decoration: none;
+	list-style: none;
+}
+.right__color-vanillaice{
+	background-color: #EFCAD6;
+	height: 967px;
+	width: 75px;
+	text-decoration: none;
+	list-style: none;
+}
+.right__color-turquoise{
+	background-color: #70C5CA;
+	height: 967px;
+	width: 75px;
+	text-decoration: none;
+	list-style: none;
+}
+.right__color-mineralgrey{
+	background-color: #658080;
+	height: 967px;
+	width: 75px;
+}
+.right__color-anise{
+	background-color:#A8CC8C;
+	height: 967px;
+	width: 75px;
+}
+.right__color-aimond{
+	background-color: #C6B7A4;
+	height: 967px;
+	width: 75px;
+}
+.right__color-parchment{
+	background-color: #F3E7D9;
+	height: 967px;
+	width: 75px;
+}
